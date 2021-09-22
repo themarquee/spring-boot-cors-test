@@ -1,12 +1,12 @@
 # cors-test
 Simple HTML & JS Tool to quickly test CORS locally.
 
-This has been enhanced to run with Spring Boot CLI and dump some meaningful info on the test page.
+This has been enhanced to run with [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#cli) and dump some meaningful info on the test page.
 
 So:
-1. Update the URL you want to test in static/main.js
-2. Run the thing using spring run *.groovy [watch -- --server.port=<port>]
-3. Open localhost:<port> in the browser (or some other host if configured in /etc/hosts)
+1. Update the URL you want to test in `static/main.js`
+2. Run the thing using `spring run *.groovy [--watch -- --server.port=<port>]`
+3. Open `localhost:<port>` in the browser (or some other host if configured in `/etc/hosts`)
 
 ----
 
