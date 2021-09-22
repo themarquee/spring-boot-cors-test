@@ -1,4 +1,4 @@
-# cors-test
+# spring-boot-cors-test
 Simple HTML & JS Tool to quickly test CORS locally.
 
 This has been enhanced to run with [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#cli) and dump some meaningful info on the test page.
