@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background-color: white;
+    padding: 10px;
+}
+
+input {
+    width: 75%;
+    font-size: 1.0em;
+    font-family: 'Courier New', 'Courier' monospace;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+div {
+    width: min-content;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+pre {
+    width: min-content;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: lightgray;
+ 
+    font-family: 'Courier New', 'Courier' monospace;
+    font-size: 1.25em;
+    color: black;
+}
+    
