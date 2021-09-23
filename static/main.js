@@ -1,8 +1,10 @@
 function main() {
     console.log("cors-test");
 
+    var urlToTest = $('#url-field').val();
+
     var request = $.ajax({
-	url: "https://api.github.com",
+        url: urlToTest,
         method: "GET",
         data: null,
         dataType: "json"
